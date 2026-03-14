@@ -91,7 +91,7 @@ const Optimizer = () => {
     
     try {
       // NOTE: Update this URL to match your new FastAPI optimization endpoint
-      const response = await fetch("http://127.0.0.1:8000/optimize", {
+      const response = await fetch("https://rehxn-aegis.hf.space/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: prompt }), 
